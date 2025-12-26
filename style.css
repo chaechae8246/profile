@@ -22,9 +22,7 @@ ul {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;
 }
 
 /* Header */
@@ -75,7 +73,7 @@ nav a:hover {
 
 .hero-text {
     position: absolute;
-    right: 25%;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
