@@ -10,11 +10,11 @@
     <!-- Header -->
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="꼬막로고"></a>
+            <a href="index.html"><span>CHAECHAE</span></a>
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li ><a href="#home" class="nav_active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -24,11 +24,13 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <img src="images/sample.jpg" alt="샘플">
         <div class="hero-text">
-            <p>디자이너</p>
-            <p>류채연 입니다.</p>
+            <p>Product</p>
+            <p>Designer</p>
+            <p class="profile_name">CHAEYEON</p>
         </div>
+        <img src="images/profile.png" alt="프로필이미지">
+       
     </section>
 
 
@@ -42,38 +44,37 @@
         
         <div class="about-details">
             <section class="about-card">
-                <h3>Education</h3>
+                <h3><img src="images/icon_edu.png" alt="교육">Education</h3>
                 <ul>
-                    <li>디자인학 학사</li>
+                    <li>영상디자인학과 졸업</li>
                     <li>UX/UI 전문 과정 수료</li>
-                    <li>컴퓨터공학 디자인 복수전공</li>
                 </ul>
             </section>
 
             <section class="about-card">
-                <h3>Activity</h3>
+                <h3><img src="images/icon_symbol.png" alt="활동">Activity</h3>
                 <ul>
-                    <li>디자인 커뮤니티 운영진</li>
-                    <li>디자인 세미나 발표</li>
-                    <li>오즈코딩스쿨 7기 아웃풋</li>
+                    <li>십이지 (컨텐츠 디자이너)</li>
+                    <li>굿리치 (컨텐츠 디자이너)</li>
                 </ul>
             </section>
 
             <section class="about-card">
-                <h3>License</h3>
+                <h3><img src="images/icon_skill.png" alt="스킬" class="icon_skill">Skill</h3>
                 <ul>
-                    <li>컴퓨터그래픽스운용기능사</li>
+                    <li>Figma</li>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Midjourney</li>
+                </ul>
+            </section>
+
+            <section class="about-card">
+                <h3><img src="images/icon_license.png" alt="자격증">License</h3>
+                <ul>
+                    <li>운전면허 보통 2종</li>
+                    <li>GTQ 1급</li>
                     <li>웹디자인기능사</li>
-                    <li>컬러리스트 1급</li>
-                </ul>
-            </section>
-
-            <section class="about-card">
-                <h3>Skill</h3>
-                <ul>
-                    <li>Figma, Sketch</li>
-                    <li>Adobe Creative Suite</li>
-                    <li>Adobe Creative Suite</li>
                 </ul>
             </section>
         </div>
@@ -85,45 +86,31 @@
         
         <div class="project-container">
             <section class="project-item">
-                <figure>
-                    <img src="images/project1.png" alt="여행앱 개선 디자인 프로젝트">
-                    <figcaption>여행앱 개선 디자인 프로젝트</figcaption>
+                <figure class="clone">
+                    <figcaption>MNET CLONE DESIGN</figcaption>
+                    <img src="images/project_1.jpg" alt="엠넷 클론디자인"> 
                 </figure>
             </section>
 
             <section class="project-item">
-                <figure>
-                    <img src="images/project2.png" alt="여행 웹페이지 계산 디자인 프로젝트">
-                    <figcaption>여행 웹페이지 계산 디자인 프로젝트</figcaption>
+                <figure class="redesign">
+                    <figcaption>Ticket Link RE-DESIGN PROJECT</figcaption>
+                    <img src="images/project_2.jpg" alt="티켓링크 리디자인" >
                 </figure>
-            </section>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        
-        <div class="contact-container">
-            <section class="contact-item">
-                <h3>블로그</h3>
-                <ul>
-                    <li><a href="https://mint-ssam.tistory.com">https://mint-ssam.tistory.com</a></li>
-                </ul>
-            </section>
-
-            <section class="contact-item">
-                <h3>이메일</h3>
-                <ul>
-                    <li><a href="mailto:designermintsaam@gmail.com">designermintsaam@gmail.com</a></li>
-                </ul>
             </section>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; Mint all rights reserved.</p>
-    </footer>
+    <footer class="site-footer">
+    <p class="footer-left">© CheaChae all rights reserved.-</p>
+
+    <div class="footer-center">
+        <a class="footer-pill" href="#">BLOG</a>
+        <a class="footer-pill" href="mailto:your@email.com">E-Mail</a>
+    </div>
+
+    <p class="footer-right">Design by Ryoo-chaeyeon</p>
+</footer>
 </body>
 </html>
